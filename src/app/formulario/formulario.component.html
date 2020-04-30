@@ -1,0 +1,29 @@
+<form role="form">
+    <div class="form-group">
+
+
+        <label for="InputCodigo">Código</label>
+        <input type="number" class="form-control" [(ngModel)]="codigo" name="codigo" />
+    </div>
+    <div class="form-group">
+
+        <label for="InputNombre">Nombre</label>
+        <input type="text" class="form-control" [(ngModel)]="nombre" name="nombre" />
+    </div>
+    <div class="form-group">
+
+        <label for="InputApellido">Apellido</label>
+        <input type="text" class="form-control" [(ngModel)]="apellido" name="apellido" />
+    </div>
+    <div class="form-group">
+    </div>
+    <div class="form-group">
+
+        <label for="InputNota">Nota</label>
+        <input type="float" class="form-control" [(ngModel)]="nota" name="nota" />
+    </div>
+    <div class="form-group">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="onCrearpersona()">Agregar</button>
+
+</form>
